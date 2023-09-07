@@ -1,0 +1,28 @@
+{
+  "name": "sip.js-udp-example",
+  "version": "1.0.0",
+  "description": "A SIP.js UDP example",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwysong85/sip.js-udp-example.git"
+  },
+  "keywords": [
+    "sip.js",
+    "udp"
+  ],
+  "author": "Corey Wysong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwysong85/sip.js-udp-example/issues"
+  },
+  "homepage": "https://github.com/cwysong85/sip.js-udp-example#readme",
+  "dependencies": {
+    "sip.js": "^0.21.2"
+  }
+}
