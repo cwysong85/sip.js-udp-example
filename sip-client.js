@@ -5,7 +5,7 @@ import SessionDescriptionHandler from './sdp.js';
 class SIP {
 
     constructor(conf){
-
+        this.conf = conf
         this.userAgent = new UserAgent({
             transportConstructor: udpTransport,
             transportOptions: {
