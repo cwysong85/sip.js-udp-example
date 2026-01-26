@@ -9,6 +9,3 @@ const sipClient = new SipClient({
 });
 
 await sipClient.start();
-
-// Example: Make a call
-// await sipClient.call('sip:another-client@ip.com', 'a-local-user');
